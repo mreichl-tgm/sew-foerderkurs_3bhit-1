@@ -1,6 +1,6 @@
 package interfaces;
 
-class Fink extends Bird implements ICanFly {
+class Fink extends Bird implements ICanFly, ICanSing {
     private int speed;
     private int distance;
 

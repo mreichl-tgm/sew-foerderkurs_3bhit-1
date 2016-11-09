@@ -2,7 +2,7 @@ package interfaces;
 
 import java.util.ArrayList;
 
-public class TestBirds {
+public class Main01 {
     public static void main(String[] args) {
         Fink fink = new Fink("Fink!", 20);
         Dodo dodo = new Dodo("Squawk!");
@@ -16,6 +16,8 @@ public class TestBirds {
         tweetingBirds.add(fink);    // Possible because the fink is a bird
         tweetingBirds.add(dodo);    // Possible because the dodo is a bird
 
-        System.out.println(tweetingBirds.toString());
+        for (ICanTweet b : tweetingBirds) {
+            b.tweet();
+        }
     }
 }
