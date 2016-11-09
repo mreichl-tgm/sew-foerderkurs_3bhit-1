@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>interfaces</OriginalElement>
+  <nodes>
+    <node x="177.0" y="136.0">interfaces.ICanFly</node>
+    <node x="509.25" y="377.0">interfaces.Dodo</node>
+    <node x="0.0" y="162.0">interfaces.ICanSing</node>
+    <node x="360.625" y="539.0">interfaces.Main01</node>
+    <node x="468.0" y="162.0">interfaces.Bird</node>
+    <node x="257.2857142857143" y="0.0">interfaces.ICanTweet</node>
+    <node x="154.76785714285714" y="324.0">interfaces.Fink</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="interfaces.Main01" target="interfaces.Dodo">
+      <point x="42.75" y="-29.5" />
+      <point x="488.875" y="514.0" />
+      <point x="579.75" y="514.0" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="interfaces.Fink" target="interfaces.Bird">
+      <point x="78.0" y="-82.5" />
+      <point x="349.7678571428571" y="299.0" />
+      <point x="505.25" y="299.0" />
+      <point x="-37.25" y="43.0" />
+    </edge>
+    <edge source="interfaces.Main01" target="interfaces.Fink">
+      <point x="-42.75" y="-29.5" />
+      <point x="403.375" y="514.0" />
+      <point x="271.7678571428571" y="514.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="interfaces.Dodo" target="interfaces.Bird">
+      <point x="0.0" y="-29.5" />
+      <point x="37.25" y="43.0" />
+    </edge>
+    <edge source="interfaces.Bird" target="interfaces.ICanTweet">
+      <point x="0.0" y="-43.0" />
+      <point x="542.5" y="111.0" />
+      <point x="370.5357142857143" y="111.0" />
+      <point x="37.75" y="43.0" />
+    </edge>
+    <edge source="interfaces.Fink" target="interfaces.ICanFly">
+      <point x="0.0" y="-82.5" />
+      <point x="271.7678571428571" y="299.0" />
+      <point x="312.5" y="299.0" />
+      <point x="0.0" y="69.0" />
+    </edge>
+    <edge source="interfaces.Fink" target="interfaces.ICanSing">
+      <point x="-78.0" y="-82.5" />
+      <point x="193.76785714285714" y="299.0" />
+      <point x="78.5" y="299.0" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="interfaces.ICanSing" target="interfaces.ICanTweet">
+      <point x="0.0" y="-43.0" />
+      <point x="78.5" y="111.0" />
+      <point x="295.0357142857143" y="111.0" />
+      <point x="-37.75" y="43.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.919093851132686" x="325.5" y="299.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
