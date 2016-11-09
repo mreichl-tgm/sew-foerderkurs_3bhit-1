@@ -16,8 +16,6 @@ public class Main01 {
         tweetingBirds.add(fink);    // Possible because the fink is a bird
         tweetingBirds.add(dodo);    // Possible because the dodo is a bird
 
-        for (ICanTweet b : tweetingBirds) {
-            b.tweet();
-        }
+        tweetingBirds.forEach(ICanTweet::tweet);
     }
 }

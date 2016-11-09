@@ -2,9 +2,10 @@ package interfaces;
 
 import java.util.Random;
 
-public interface ICanSing extends ICanTweet {
+interface ICanSing extends ICanTweet {
+    // Variables have to be instantiated inside an interface
     Random rand = new Random();
-
+    // Default lets you define a function body
     @Override
     default void tweet() {
         String tweet = getNoise().toLowerCase();
