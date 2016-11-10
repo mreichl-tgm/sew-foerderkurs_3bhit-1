@@ -2,7 +2,7 @@ package interfaces;
 
 import java.util.ArrayList;
 
-public class Main01 {
+public class MainInterfaces {
     public static void main(String[] args) {
         Fink fink = new Fink("Fink!", 20);
         Dodo dodo = new Dodo("Squawk!");
