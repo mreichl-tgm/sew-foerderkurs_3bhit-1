@@ -21,4 +21,17 @@ class Model {
 
         return false;
     }
+
+    boolean setPassword(String password) {
+        if (!password.equals(this.password)) {
+            this.password = password;
+            return true;
+        }
+
+        return false;
+    }
+
+    String getPassword() {
+        return this.password;
+    }
 }
