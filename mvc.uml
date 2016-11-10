@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>mvc</OriginalElement>
+  <nodes>
+    <node x="287.0" y="26.0">mvc.Model</node>
+    <node x="0.0" y="0.0">mvc.View</node>
+    <node x="189.375" y="348.0">mvc.MainMVC</node>
+    <node x="206.375" y="239.0">mvc.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mvc.MainMVC" target="mvc.Controller">
+      <point x="0.0" y="-29.5" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="mvc.Controller" target="mvc.Model">
+      <point x="17.125" y="-29.5" />
+      <point x="292.0" y="209.0" />
+      <point x="349.5" y="209.0" />
+      <point x="-62.5" y="68.5" />
+    </edge>
+    <edge source="mvc.Controller" target="mvc.View">
+      <point x="-51.375" y="-29.5" />
+      <point x="223.5" y="219.0" />
+      <point x="66.75" y="219.0" />
+      <point x="-66.75" y="94.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="268.5" y="203.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
